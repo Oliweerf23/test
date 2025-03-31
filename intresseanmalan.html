@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intresseanmälan - JB Defense</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container nav-container">
+                <div class="logo">JB Defense</div>
+                <ul class="nav-links">
+                    <li><a href="index.html#produkter">Produkter</a></li>
+                    <li><a href="index.html#om-oss">Om oss</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="index.html#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="interest-form">
+            <div class="container">
+                <div class="form-container">
+                    <h2>Intresseanmälan</h2>
+                    <p>Fyll i formuläret så kontaktar vi er med mer information om hur ni kan komma igång</p>
+                    
+                    <form action="#" method="POST" class="modern-form">
+                        <div class="radio-group">
+                            <div class="radio-option">
+                                <input type="radio" id="start-selling" name="interest" value="start-selling" checked>
+                                <label for="start-selling">Vi är intresserade av att starta en försäljning</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="more-info" name="interest" value="more-info">
+                                <label for="more-info">Vi är för tillfället endast intresserade av mer information och ett varuprov</label>
+                            </div>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="form-field">
+                                <input type="text" id="forening" name="forening" required>
+                                <label for="forening">
+                                    <i class="fas fa-users"></i>
+                                    Föreningsnamn/Lag/Klass
+                                </label>
+                            </div>
+
+                            <div class="form-field">
+                                <input type="text" id="adress" name="adress" required>
+                                <label for="adress">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Adress
+                                </label>
+                            </div>
+
+                            <div class="form-field">
+                                <input type="text" id="postnummer" name="postnummer" required>
+                                <label for="postnummer">
+                                    <i class="fas fa-envelope"></i>
+                                    Postnummer
+                                </label>
+                            </div>
+
+                            <div class="form-field">
+                                <input type="text" id="stad" name="stad" required>
+                                <label for="stad">
+                                    <i class="fas fa-city"></i>
+                                    Stad
+                                </label>
+                            </div>
+
+                            <div class="form-field">
+                                <input type="text" id="fornamn" name="fornamn" required>
+                                <label for="fornamn">
+                                    <i class="fas fa-user"></i>
+                                    Förnamn
+                                </label>
+                            </div>
+
+                            <div class="form-field">
+                                <input type="text" id="efternamn" name="efternamn" required>
+                                <label for="efternamn">
+                                    <i class="fas fa-user"></i>
+                                    Efternamn
+                                </label>
+                            </div>
+
+                            <div class="form-field">
+                                <input type="email" id="epost" name="epost" required>
+                                <label for="epost">
+                                    <i class="fas fa-envelope"></i>
+                                    E-post
+                                </label>
+                            </div>
+
+                            <div class="form-field">
+                                <input type="tel" id="telefon" name="telefon" required>
+                                <label for="telefon">
+                                    <i class="fas fa-phone"></i>
+                                    Telefonnummer
+                                </label>
+                            </div>
+
+                            <div class="form-field full-width">
+                                <textarea id="meddelande" name="meddelande" rows="4"></textarea>
+                                <label for="meddelande">
+                                    <i class="fas fa-comment"></i>
+                                    Ev. kampanjkod eller meddelande
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="checkbox-group">
+                            <label class="checkbox-container">
+                                <input type="checkbox" required>
+                                <span class="checkbox-text">
+                                    Jag samtycker till att JB Defense AB får behandla mina personuppgifter i enlighet med JB Defense integritetspolicy. 
+                                    <a href="#" class="policy-link">Läs den här</a>
+                                </span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="submit-button">SKICKA</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>JB Defense</h3>
+                    <p>Din förenings väg till ökad säkerhet och starkare ekonomi</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontakt</h3>
+                    <ul>
+                        <li><a href="mailto:info@JBdefense.se">info@JBdefense.se</a></li>
+                        <li><a href="tel:+46701234567">070-123 45 67</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Länkar</h3>
+                    <ul>
+                        <li><a href="index.html#om-oss">Om oss</a></li>
+                        <li><a href="index.html#produkter">Produkter</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 JB Defense. Alla rättigheter förbehållna.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
